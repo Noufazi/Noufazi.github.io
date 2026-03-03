@@ -32,7 +32,7 @@
     <nav aria-label="Breadcrumb">
       <ol>
         <li><a href="index.html">Home</a></li>
-        <li>Contact</li>
+        <li>Contact Me</li>
       </ol>
     </nav>
 
@@ -47,15 +47,19 @@
       <address>
         <dl>
           <dt><strong>Email</strong></dt>
-          <dd><a href="mailto:nouf.juried@hotmail.com">nouf.juried@hotmail.com</a></dd>
+          <dd>
+            <a href="mailto:nouf.juried@hotmail.com">nouf.juried@hotmail.com</a>
+          </dd>
 
           <dt><strong>Phone</strong></dt>
-          <dd><a href="tel:+966502300422">+966 502 300 422</a></dd>
+          <dd>
+            <a href="tel:+966502300422">+966 502 300 422</a>
+          </dd>
 
           <dt><strong>LinkedIn</strong></dt>
           <dd>
             <a href="https://linkedin.com/in/noufaljuried" target="_blank" rel="noopener noreferrer"
-               aria-label="Visit Nouf Bin Jurayyad on LinkedIn (opens in new tab)">
+               aria-label="Visit Nouf on LinkedIn (opens in new tab)">
               linkedin.com/in/noufaljuried
             </a>
           </dd>
@@ -63,7 +67,7 @@
           <dt><strong>GitHub</strong></dt>
           <dd>
             <a href="https://github.com/Noufazi" target="_blank" rel="noopener noreferrer"
-               aria-label="Visit Nouf Bin Jurayyad on GitHub (opens in new tab)">
+               aria-label="Visit Nouf on GitHub (opens in new tab)">
               github.com/Noufazi
             </a>
           </dd>
@@ -82,13 +86,12 @@
         method="post"
         enctype="text/plain"
         aria-label="Contact form"
-        novalidate
       >
         <fieldset>
           <legend>Your Details</legend>
 
           <p>
-            <label for="name">Full Name <abbr title="Required">*</abbr></label><br />
+            <label for="name">Name <abbr title="Required">*</abbr></label><br />
             <input
               type="text"
               id="name"
@@ -98,12 +101,11 @@
               aria-required="true"
               autocomplete="name"
               size="36"
-              maxlength="80"
             />
           </p>
 
           <p>
-            <label for="email">Email Address <abbr title="Required">*</abbr></label><br />
+            <label for="email">Email <abbr title="Required">*</abbr></label><br />
             <input
               type="email"
               id="email"
@@ -113,7 +115,6 @@
               aria-required="true"
               autocomplete="email"
               size="36"
-              maxlength="100"
             />
           </p>
         </fieldset>
@@ -122,17 +123,6 @@
 
         <fieldset>
           <legend>Your Message</legend>
-
-          <p>
-            <label for="subject">Subject</label><br />
-            <select id="subject" name="subject" aria-label="Select a subject">
-              <option value="">— Select a topic —</option>
-              <option value="project">Project Collaboration</option>
-              <option value="job">Internship / Job Opportunity</option>
-              <option value="question">General Question</option>
-              <option value="other">Other</option>
-            </select>
-          </p>
 
           <p>
             <label for="message">Message <abbr title="Required">*</abbr></label><br />
@@ -144,7 +134,6 @@
               placeholder="Write your message here…"
               required
               aria-required="true"
-              maxlength="2000"
             ></textarea>
           </p>
         </fieldset>
