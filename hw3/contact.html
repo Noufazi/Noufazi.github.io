@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Nouf Bin Jurayyad</title>
+  <meta name="description" content="Contact details for Nouf Bin Jurayyad — email, phone, LinkedIn, and GitHub." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <a href="#main-content">Skip to main content</a>
+  <span id="top"></span>
+
+  <header role="banner">
+    <hgroup>
+      <h1>Nouf Bin Jurayyad</h1>
+      <p>Computer Science Student &mdash; King Saud University</p>
+    </hgroup>
+    <nav role="navigation" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="projects.html">Portfolio</a></li>
+        <li><a href="contact.html" aria-current="page"><strong>Contact</strong></a></li>
+      </ul>
+    </nav>
+    <hr />
+  </header>
+
+  <main id="main-content" role="main" aria-labelledby="contact-heading">
+
+    <nav aria-label="Breadcrumb">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>Contact Me</li>
+      </ol>
+    </nav>
+
+    <h2 id="contact-heading">Contact Me</h2>
+    <p>Feel free to reach out through any of the channels below.</p>
+
+    <hr />
+
+    <!-- CONTACT DETAILS -->
+    <section aria-labelledby="details-heading">
+      <h3 id="details-heading">Contact Details</h3>
+      <address>
+        <dl>
+          <dt><strong>Email</strong></dt>
+          <dd>
+            <a href="mailto:nouf.juried@hotmail.com">nouf.juried@hotmail.com</a>
+          </dd>
+
+          <dt><strong>Phone</strong></dt>
+          <dd>
+            <a href="tel:+966502300422">+966 502 300 422</a>
+          </dd>
+
+          <dt><strong>LinkedIn</strong></dt>
+          <dd>
+            <a href="https://linkedin.com/in/noufaljuried" target="_blank" rel="noopener noreferrer"
+               aria-label="Visit Nouf on LinkedIn (opens in new tab)">
+              linkedin.com/in/noufaljuried
+            </a>
+          </dd>
+
+          <dt><strong>GitHub</strong></dt>
+          <dd>
+            <a href="https://github.com/Noufazi" target="_blank" rel="noopener noreferrer"
+               aria-label="Visit Nouf on GitHub (opens in new tab)">
+              github.com/Noufazi
+            </a>
+          </dd>
+        </dl>
+      </address>
+    </section>
+
+    <hr />
+
+    <!-- CONTACT FORM -->
+    <section aria-labelledby="form-heading">
+      <h3 id="form-heading">Send a Message</h3>
+
+      <form
+        action="mailto:nouf.juried@hotmail.com"
+        method="post"
+        enctype="text/plain"
+        aria-label="Contact form"
+      >
+        <fieldset>
+          <legend>Your Details</legend>
+
+          <p>
+            <label for="name">Name <abbr title="Required">*</abbr></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your full name"
+              required
+              aria-required="true"
+              autocomplete="name"
+            />
+          </p>
+
+          <p>
+            <label for="email">Email <abbr title="Required">*</abbr></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your@email.com"
+              required
+              aria-required="true"
+              autocomplete="email"
+            />
+          </p>
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Your Message</legend>
+
+          <p>
+            <label for="message">Message <abbr title="Required">*</abbr></label>
+            <textarea
+              id="message"
+              name="message"
+              rows="7"
+              placeholder="Write your message here…"
+              required
+              aria-required="true"
+            ></textarea>
+          </p>
+        </fieldset>
+
+        <br />
+
+        <p>
+          <input type="submit" value="Send Message" />
+          &nbsp;
+          <input type="reset" value="Clear" />
+        </p>
+
+        <p><small><abbr title="Required">*</abbr> Required fields</small></p>
+      </form>
+    </section>
+
+    <hr />
+
+    <nav aria-label="Page shortcuts">
+      <ul>
+        <li><a href="index.html">&larr; Back to Home</a></li>
+        <li><a href="cv.html">View My CV</a></li>
+        <li><a href="projects.html">View My Portfolio</a></li>
+        <li><a href="#top">Back to Top &uarr;</a></li>
+      </ul>
+    </nav>
+
+  </main>
+
+  <hr />
+
+  <footer role="contentinfo">
+    <address>
+      <p>
+        <strong>Nouf Bin Jurayyad</strong> &mdash;
+        <a href="mailto:nouf.juried@hotmail.com">nouf.juried@hotmail.com</a>
+      </p>
+    </address>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="projects.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#top">Back to Top &uarr;</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
